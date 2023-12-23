@@ -16,33 +16,33 @@ jobs:
 
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@main
+        uses: step-security/harden-runner@ea8b747819ff6d82907eb4018229f1a75c174697 # main
         with:
           egress-policy: audit
 
-      - uses: actions/checkout@main
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # main
       - name: Set up Python 3.8
-        uses: actions/setup-python@main
+        uses: actions/setup-python@e9d6f990972a57673cdb72ec29e19d42ba28880f # main
         with:
           python-version: "3.8"
       - name: Set up Python 3.9
-        uses: actions/setup-python@main
+        uses: actions/setup-python@e9d6f990972a57673cdb72ec29e19d42ba28880f # main
         with:
           python-version: "3.9"
       - name: Set up Python 3.10
-        uses: actions/setup-python@main
+        uses: actions/setup-python@e9d6f990972a57673cdb72ec29e19d42ba28880f # main
         with:
           python-version: "3.10"
       - name: Set up Python 3.11
-        uses: actions/setup-python@main
+        uses: actions/setup-python@e9d6f990972a57673cdb72ec29e19d42ba28880f # main
         with:
           python-version: "3.11"
       - name: Set up Python 3.12
-        uses: actions/setup-python@main
+        uses: actions/setup-python@e9d6f990972a57673cdb72ec29e19d42ba28880f # main
         with:
           python-version: "3.12"
       - name: Set up Python 3.13
-        uses: actions/setup-python@main
+        uses: actions/setup-python@e9d6f990972a57673cdb72ec29e19d42ba28880f # main
         with:
           python-version: "3.13-dev"
       - name: Install requirements
